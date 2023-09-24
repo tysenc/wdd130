@@ -1,7 +1,5 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Merriweather+Sans:wght@300&display=swap');
-</style>
 
 :root {
     --primary-color: #ade8f4;
@@ -24,13 +22,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(Kanit);
-    color: var(#ade8f4);
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 header {
     padding: 20px;
-    background-color: var(#0077b6);
+    background-color: var(--accent1-color);
 }
 
 p {
@@ -38,7 +36,7 @@ p {
 }
 
 nav {
-    background-color: var(#03045e);
+    background-color: var(--accent1-color);
     font-size: 1.2rem;
     display: flex;
 }
