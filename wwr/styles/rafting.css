@@ -114,6 +114,21 @@ p {
     color: var(--accent1-color);
 }
 
+.history {
+    text-align: center;
+}
+
+.history-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-left, .text-right {
+    flex: 1;
+}
 
 .image-container {
     display: flex;
