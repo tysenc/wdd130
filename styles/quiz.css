@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    height: 50px
+}
+
+h2 {
+    font-size: 40px;
+}
+
+input, label {
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.questions {
+    display: grid;
+    grid-template-columns: 800px;
+    grid-gap: .5rem;
+    border: 1px solid black;
+    padding: 20px 15px;
+    padding-bottom: 20px;
+    background-color: gray;
+    width: max-content;
+    height: 30rem;
+    justify-content: center;
+}
+
+.questions label {
+    text-align: left;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+
+input[type="number"] {
+    height: 50px;
+}
+
+.button {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
