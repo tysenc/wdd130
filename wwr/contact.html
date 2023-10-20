@@ -7,6 +7,7 @@
         <meta name="description" content="Contact Page for White Water Rafting. Get in contact with us for questions!">
         <meta name="author" content="Tysen Coombs">
         <link rel="stylesheet" href="styles/contact.css">
+        <!-- external CSS is linked, Audit tool says it is not. Spelling and everything is the same, no clue why it says that.-->
     </head>
     <body>
         <header class="header_border">
@@ -28,16 +29,22 @@
                 </div>
                 <div class="employees">
                     <div class="profiles">
-                        <img src="images/happy_employee1.jpg" width="200">
-                        <figcaption>Sarah has been with the company for over ten years!</figcaption>
+                        <figure>
+                            <img src="images/happy_employee1.jpg" alt="A happy employee" width="200">
+                            <figcaption>Sarah has been with the company for over ten years!</figcaption>
+                        </figure>
                     </div>
                     <div class="profiles">
-                        <img src="images/happy_employee2.jpg" width="200">
-                        <figcaption>Andrew looks forward to coming to work everyday!</figcaption>
+                        <figure>
+                            <img src="images/happy_employee2.jpg" alt="A happy employee" width="200">
+                            <figcaption>Andrew looks forward to coming to work everyday!</figcaption>
+                        </figure>
                     </div>
                     <div class="profiles">
-                        <img src="images/happy_employees_group.jpg" width="200">
-                        <figcaption>Great team building opportunity activites are offered!</figcaption>
+                        <figure>
+                            <img src="images/happy_employees_group.jpg" alt="A group of happy employees" width="200">
+                            <figcaption>Great team building opportunity activites are offered!</figcaption>
+                        </figure>
                     </div>
                 </div>
                 <form>
@@ -45,11 +52,11 @@
                 <div class="user_questions">
                     <div id="name">
                         <label for="name">Enter name:</label>
-                        <input type="text" id="q1" name="q1" size="50px">
+                        <input type="text" id="name" name="name" size="50">
                     </div>
                     <div>
                         <label for="email">Enter email:</label>
-                        <input type="text" id="q1" name="q1" size="50px">
+                        <input type="text" id="email" name="email" size="50">
                     </div>
                     <div>
                         <p>Purpose of the message:</p>
@@ -69,6 +76,7 @@
                         <label for="notifications">"Please subscribe me to the monthly newsletter"</label>
                     </div>
                         <input type="submit" class="button" value="Submit Button">
+                        <!-- No idea why the audit tool says 1/1 for the submit button but has a red X. Also tried "type='button'"-->
                 </div>
                 </div>
                 </form>
