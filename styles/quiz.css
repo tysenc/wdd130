@@ -6,6 +6,14 @@
     height: 50px
 }
 
+form {
+    justify-content: center;
+}
+
+.q1, .q2, .q3, .q4 {
+    display: inline-block; vertical-align: top;
+}
+
 h2 {
     font-size: 40px;
 }
