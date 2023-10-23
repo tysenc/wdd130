@@ -67,6 +67,10 @@ h3 {
     padding: 10px;
 }
 
+table, th, td {
+    border: 1px solid;
+}
+
 table {
     text-align: center;
     justify-content: center;
