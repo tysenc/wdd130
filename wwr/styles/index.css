@@ -50,72 +50,87 @@ h3 {
     text-align: center;
 }
 
-.buttons {
+.main_img img {
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+}
+
+.image-text h1 {
+    height: auto;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+    width: 92%;
+    left: 4%;
+    margin: 0%;
+    padding: 0;
+}
+
+.newsletter {
     display: grid;
+    padding: 10px;
+    max-width: 100%;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: #ade8f4;
+}
+
+.newsletter h2 {
+    text-align: center;
+}
+
+.user_options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .trips {
-    display: flex;
-    grid-template-columns: 3fr;
-}
-
-.trip {
-    border: 1px solid black;
-    text-align: center;
-}
-
-.trip img {
-    width: fit-content;
-    max-width: 90%;
-    padding: 10px;
-}
-
-table, th, td {
-    border: 1px solid;
-    font-size: 19px;
-}
-
-table {
-    text-align: center;
-    justify-content: center;
-    max-width: 1000px;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-.employees {
-    display: flex;
-    flex-wrap: wrap;
-    grid-template-columns: 3fr;
-    border: 1px solid black;
-    justify-content: center;
-    background-color: var(--secondary-color);
-}
-
-.questions {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.user_questions {
-    border: 1px solid black;
-    width: fit-content;
-}
-
-.profiles {
+    display: grid;
     border: 1px solid black;
     padding: 10px;
-    width: min-content;
-    background-color: white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    background-color: #ade8f4;
 }
 
-.purpose {
-    display: flex;
+.trips P {
+    font-size: 30px;
+}
+
+.buttons {
+    padding: 10px;
+    font-size: 40px;
+}
+
+.offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+}
+
+.offerings img, figcaption {
+    width: 95%;
+    padding: 10px;
+    font-size: 30px;
+}
+
+figure {
+    border: 1px solid black;
 }
 
 header nav {
